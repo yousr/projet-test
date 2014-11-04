@@ -1,4 +1,46 @@
+
+
 body 
 {
-background-color:#E67E30; 
+background-image: url(images/blacklinenv2.png); 
+color: white; 
 } 
+
+
+nav {
+width: 100%;
+text-align: center;
+position: relative;
+
+}
+
+#navmenu{
+    display: inline; 
+    padding: 5px 20px 5px 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+ul {
+    margin: 20px;
+    padding: 10px; 
+	list-style: none;
+    text-align: center;
+}
+ 
+
+li{
+ text-align: inherit;
+} 
+
+a {
+    text-decoration:none;
+    color: blue; }
+ 
+
+a:hover {color: orange; }
+
+
+
+
