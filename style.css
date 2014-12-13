@@ -1,11 +1,10 @@
-*{
+* {
 font-family:sans-serif;"Caviar dreams";
-    src:url('fonts/CaviarDreams.ttf');}
+    src:url('fonts/CaviarDreams.ttf');
+margin: 0px;
+padding: 0px;}
 
 header{
-
-margin-left: 20px;
-margin-right: 20px;
 text-align: center;
 font-size: 23px; 
 font-family: Helvetica; 
@@ -16,7 +15,8 @@ color: white;
 
 nav ul {
 display: flex;
-text-decoration: none;}
+text-decoration: none;
+margin: 0px;}
 
 nav li{
 padding: 34px 34px 30px 30px;
@@ -32,40 +32,107 @@ margin: 0;
 width: 100%;
 } 
 
-img {
+h1{
+text-align: center;
+height: 100px;
+color: white;
+background-image: url(images/blacksnow.jpg);
+font-size: 50px;
+padding-top: 25px;}
+
+main img {
     margin-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-main ul {
-    margin: 20px;
-    padding: 10px; 
+ul {
+    margin: 20px 20px 20px 20px;
+    padding: 10px 1Opx 10px 10px; 
 	list-style: none;
-    text-align: center;
 }
- 
 
-main il {
- text-align: inherit;
-} 
+li {
+    margin: 20px 20px 20px 20px;
+    padding: 10px 1Opx 10px 10px; 
+	list-style: none;
+
+}
 
 a {
     text-decoration:none;
     color: white;
    }
  
+li a:hover{
+    background-color: white;
+                color:black;
+}
 
-a:hover {color: black; 
-        background-color: white;}
-header:hover {  background-color: white;
-                color:black;}
+nav:hover {  
+    background-color: white;
+                color:black;
+}
 
+.menup:hover {
+    background-image: url(images/fresh_snow.png);
+}
 
-ul{
-margin:0;
-padding: 0;}
+.etudes{
+padding-top: 20px;
+padding-bottom: 30px;
+background-image: url(images/fresh_snow.png);
+height: 200px;
+margin-top: 0px;
+}
 
+.experience {
+padding-top: 20px;
+padding-bottom: 30px;
+background-image: url(images/blacksnow.jpg);
+color: white;
+height: 350px;
+}
 
+.blocindex{
+background-color: #101010;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.parbg {
+background-image: url(images/fresh_snow.png);}
+
+.competences{
+padding-top: 20px;
+padding-bottom: 40px;
+background-image: url(images/fresh_snow.png);
+height: 200px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+span{
+font-size: 50px;
+}
+
+footer{
+text-align: center;
+height:80px;
+padding-top: 18px;
+color: white;
+font-size:  13px;
+background-image: url(images/SolidBlack.jpg);
+}
+
+.cont{
+margin-top: 15px;
+}
+
+footer img{
+margin-right: 70px;
+margin-left: 70px;
+}
