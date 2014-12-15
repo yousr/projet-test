@@ -174,10 +174,22 @@ margin-top: 15px;
    display:inline-block;
    margin-right:30px;
    margin-left: 30px;
-   margin-bottom: 50px;
+}
+
+.imageholder12 img
+{
+   width:imagewidth;
+   heigh:imageheight;
+   display:inline-block;
+   margin-right:70px;
+   margin-left: 80px;
 }
 
 footer img{
 margin-right: 70px;
 margin-left: 70px;
 }
+
+.pagemystere {
+height: 50px;
+margin-bottom: 0px;}
